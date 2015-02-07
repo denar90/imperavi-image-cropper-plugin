@@ -1,0 +1,1 @@
+# imperavi-image-cropper-plugin
