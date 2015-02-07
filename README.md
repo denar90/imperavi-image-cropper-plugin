@@ -15,11 +15,10 @@ If you already use Imperavi redactor add after
 ````javascript
 $('#redactor').redactor({
   'imagecropper': {
-  	'imageUpload' => '/your_image_upload_script/',
-  	'options' => [
-	    //Image Cropper plugin options
-  		'autoCropArea' => 0.6, // Center 60%
-  		'resizable' => true
+  	'imageUpload': '/your_image_upload_script/',
+  	'options': {
+	    	//Image Cropper plugin options
+	  	'resizable' => true
   	}
   },
   'plugins': {
