@@ -18,7 +18,7 @@ $('#redactor').redactor({
   	'imageUpload': '/your_image_upload_script/',
   	'options': {
 	    	//Image Cropper plugin options
-	  	'resizable' => true
+	  	'resizable': true
   	}
   },
   'plugins': {
