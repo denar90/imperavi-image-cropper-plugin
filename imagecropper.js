@@ -48,7 +48,7 @@ if (!RedactorPlugins) var RedactorPlugins = {};
 								'</div>' +
 							'</form>';
 
-					self.imagecropper.cropped = true;
+					this.imagecropper.cropped = true;
 
 					this.upload.$droparea.find('.js-crop-form').remove();
 					this.upload.$droparea.append(template);
