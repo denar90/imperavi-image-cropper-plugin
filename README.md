@@ -22,8 +22,8 @@ $('#redactor').redactor({
 	'buttonCropText': 'Crop', //additional option
 	'buttonSaveText': 'Save without cropping', //additional option
   	'options': {
-	    	//Image Cropper plugin options
-	  	'resizable': true
+		//Image Cropper plugin options
+		'resizable': true
   	}
   },
   'plugins': {
