@@ -24,6 +24,6 @@
   "dependencies": {
     "jquery": ">= 1.9.0",
     "cropper": ">= *",
-    "fontawesome": ">= *",
+    "fontawesome": ">= *"
   }
 }
