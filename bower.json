@@ -1,0 +1,29 @@
+{
+  "name": "Imperavi image cropping plugin",
+  "description": "Imperavi image cropping plugin based on Image Cropper which allows to crop image after uploading in Imperavi redactor.",
+  "version": "0.1.1",
+  "main": [
+    "dist/imagecropper.js"
+  ],
+  "keywords": [
+    "imperavi",
+    "image",
+    "cropping",
+    "redactor",
+    "jquery",
+    "javacript",
+    "front-end",
+    "web",
+    "development"
+  ],      
+  "homepage": "https://github.com/denar90/imperavi-image-cropper-plugin",
+  "authors": [
+    "Denysov Artem"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">= 1.9.0",
+    "cropper": ">= *",
+    "fontawesome": ">= *",
+  }
+}

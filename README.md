@@ -1,16 +1,26 @@
 #Imperavi image cropping plugin 
 `Imperavi image cropping plugin` based on [Image Cropper](https://github.com/fengyuanchen/cropper) which allows to crop image after uploading in [Imperavi redactor](http://imperavi.com/redactor). 
 
+##Getting started
+
+###Quick start
+
+Four quick start options are available:
+
+* [Download the latest release](https://github.com/denar90/imperavi-image-cropper-plugin/archive/master.zip).
+* Clone the repository: git clone https://github.com/denar90/imperavi-image-cropper-plugin.git.
+* Install with [Bower](http://bower.io): `bower install imperavi-imagecropper`.
+
 ## Installation
 
 ````html
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" />
-<link rel="stylesheet" href="cropper.css"/>
-<link rel="stylesheet" href="/js/redactor/redactor.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
-<script src="/js/redactor/redactor.js"></script>
-<script type="text/javascript" src="cropper.js"></script>
-<script type="text/javascript" src="imagecropper.js"></script>
+<link rel="stylesheet" href="path/to/font-awesome.min.css" />
+<link rel="stylesheet" href="path/to/cropper.min.css"/>
+<link rel="stylesheet" href="path/to/redactor.css" />
+<script src="path/to/jquery.js"></script>
+<script src="path/to/redactor.js"></script>
+<script src="path/to/cropper.min.js"></script>
+<script src="path/to/imagecropper.js"></script>
 ````
 
 ##Usage
@@ -19,11 +29,11 @@ $('#redactor').redactor({
   'imagecropper': {
   	'imageUpload': '/your_image_upload_script/',
   	'modalWidth': 700, //additional option
-	'buttonCropText': 'Crop', //additional option
-	'buttonSaveText': 'Save without cropping', //additional option
-  	'options': {
-		//Image Cropper plugin options
-		'resizable': true
+    'buttonCropText': 'Crop', //additional option
+    'buttonSaveText': 'Save without cropping', //additional option
+  	'croppingOptions': {
+      //Image Cropper plugin options
+      'resizable': true
   	}
   },
   'plugins': {
