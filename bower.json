@@ -1,6 +1,6 @@
 {
-  "name": "Imperavi image cropping plugin",
-  "description": "Imperavi image cropping plugin based on Image Cropper which allows to crop image after uploading in Imperavi redactor.",
+  "name": "imperavi-imagecropper",
+  "description": "Imperavi image cropping plugin allows to crop image after uploading in Imperavi redactor.",
   "version": "0.1.1",
   "main": [
     "dist/imagecropper.js"
